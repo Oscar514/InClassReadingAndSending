@@ -3,3 +3,10 @@ Author: Sahar Al Seesi
 
 This is a text File
 This file will be used to illustrate how to read files using Node.js fs module and how to serve it up to the browser
+
+Q6: You can make the type of file mutable. Using the word after the '.' to check whether it is a image like jpg
+or text like txt.
+
+Q7:  To have both you could have the same code into the case statements. Having the default case read the url
+and based off of the type of content then try to run the correct case. If its jpg, run code for a jpg type, if
+txt, run code for text type. If a request, run code for running that request function.
