@@ -6,7 +6,7 @@ serveStatic = function (req, res) {
 	let fileName = '.' + url.parse(req.url).pathname;
 	fs.readFile(fileName,function(err, content) {
 		if (err) {
-			res.writeHead(404, {'Content-Type': 'test/plain'});
+			res.writeHead(404, {'Content-Type': 'text/plain'});
 			res.end();
 		}
 		else {
