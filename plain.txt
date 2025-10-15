@@ -1,8 +1,18 @@
 File name:  plain.txt
-Author: Sahar Al Seesi
+Author: Oscar montoya
 
 This is a text File
 This file will be used to illustrate how to read files using Node.js fs module and how to serve it up to the browser
+
+Q1: You don't use sudo because you should already have permission to run lab.js.
+
+Q2: lab.js reads the plain.txt file and shows the content in console.
+
+Q3: The call readfile doesn't stop the rest of the code from continuing.
+
+Q4: It is a decoder to convert unicode to binary
+
+Q5: The data would already be in binary.
 
 Q6: You can make the type of file mutable. Using the word after the '.' to check whether it is a image like jpg
 or text like txt.
